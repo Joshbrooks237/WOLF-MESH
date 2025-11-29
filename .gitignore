@@ -14,10 +14,15 @@ __pycache__/
 # Generated outputs
 *.png
 *.json
-*.txt
+wolfy_concert_log.json
+
+# Allow specific important txt files
 !requirements.txt
-!README.md
-!ryan_gosling_script.txt
+!START_HERE.txt
+
+# Exclude generated narration script (regenerated each run)
+# Uncomment if you want to exclude it:
+# ryan_gosling_script.txt
 
 # IDE
 .vscode/
